@@ -12,7 +12,7 @@ a cargo-generate template for an esp32 project with bluetooth low energy (nimble
 to create a new project from this template:
 
 ```bash
-cargo generate --git https://github.com/plahutazan/ble_esp_template.git --name my-project
+cargo generate --git https://github.com/plahutazan/ble_esp_template.git
 ```
 
 ---
@@ -28,6 +28,8 @@ if esp32c3
 [toolchain]
 channel = "nightly"
 components = ["rust-src"]
+```
+
 ---
 
 ###### made by
