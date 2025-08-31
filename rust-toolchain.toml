@@ -1,0 +1,10 @@
+# For esp32c3
+[toolchain]
+channel = "nightly"
+components = ["rust-src"]
+
+#-----
+
+# For esp32s3
+#[toolchain]
+#channel = "esp"
